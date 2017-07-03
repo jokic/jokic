@@ -1,0 +1,56 @@
+.navbar {
+  margin-bottom: 0px;
+  background: none;
+}
+
+.content-one {
+  background: url(../image/page1.jpg) no-repeat center;
+  height: 300px;
+}
+.content-one div {
+  overflow: hidden;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.content-one div h1 {
+  text-align: center;
+  font-weight: 900;
+  color: white;
+  opacity: 0;
+  -webkit-transform: translateX(-50px);
+      -ms-transform: translateX(-50px);
+          transform: translateX(-50px);
+  -webkit-transition: all .3s linear;
+          transition: all .3s linear;
+}
+
+.content-two {
+  height: 300px;
+}
+
+.content-three {
+  overflow: hidden;
+}
+.content-three h1 {
+  text-align: center;
+}
+.content-three .skill-item {
+  text-align: center;
+}
+.content-three .skill-item img {
+  height: 60px;
+  margin: 6px 0px;
+}
+
+.content-four {
+  height: 250px;
+  background-color: #202020;
+  color: #fff;
+}
+
+.content-one.active div h1 {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);
+}
